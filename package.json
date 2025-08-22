@@ -1,0 +1,31 @@
+{
+  "name": "tunnel",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.13.1",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "dependencies": {
+    "lucide-vue-next": "catalog:",
+    "pinia": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vitest": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:",
+    "vue-tsc": "catalog:"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.1",
+    "eslint": "catalog:",
+    "turbo": "catalog:"
+  }
+}
