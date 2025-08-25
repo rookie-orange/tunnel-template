@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tunnel/ui": "workspace:*",
     "tailwindcss": "catalog:",
     "vue": "catalog:"
   },
